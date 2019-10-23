@@ -3,5 +3,9 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.18.3"
-  }
+  },
+  "packages": [
+    "packages/*",
+    "packages/common/*"
+  ]
 }
